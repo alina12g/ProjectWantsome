@@ -410,7 +410,12 @@ input[type="submit"]:active {
   margin-top: 20px;
   width: 100%;
 }
-
+/*GDPR */
+.gdpr-info,
+.cookies,
+.retur {
+  padding: 30px;
+}
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
