@@ -136,7 +136,7 @@ h2 {
 }
 .tile > img {
   width: 340px;
-  height: 390px;
+  height: 360px;
   margin-top: 10px;
 }
 .tile > div {
@@ -410,11 +410,11 @@ input[type="submit"]:active {
   margin-top: 20px;
   width: 100%;
 }
-/*GDPR */
-.gdpr-info,
-.cookies,
-.retur {
-  padding: 30px;
+/*GDPR , ANPC, RETUR, COOKIES, TERMS*/
+.infos {
+  padding: 30px 80px;
+  text-align: justify;
+  background: url(https://i.pinimg.com/474x/9e/95/65/9e95656d44318f12fa7bcb5f79099253.jpg);
 }
 @media screen and (max-height: 450px) {
   .sidenav {
