@@ -49,31 +49,31 @@
          <div class="header">
         <h2>Create account</h2>
       </div>
-      <form id="form" class="form" method="GET">
+      <form class="form" method="GET">
         <div class="form-control">
           <label for="username">Username</label>
-          <input type="text" placeholder="username" id="username" />
+          <input type="text" placeholder="username" class="username" />
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small>Error message</small>
         </div>
         <div class="form-control">
           <label for="username">Email</label>
-          <input type="email" placeholder="email @" id="email" />
+          <input type="email" placeholder="email @" class="email" />
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small>Error message</small>
         </div>
         <div class="form-control">
           <label for="username">Password</label>
-          <input type="password" placeholder="Password" id="password"/>
+          <input type="password" placeholder="Password" class="password"/>
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small>Error message</small>
         </div>
         <div class="form-control">
           <label for="username">Password check</label>
-          <input type="password" placeholder="Re-enter password" id="password2"/>
+          <input type="password" placeholder="Re-enter password" class="password2"/>
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small>Error message</small>
@@ -86,24 +86,24 @@
        <div class="header">
         <h2>Register</h2>
       </div>
-      <form id="form" class="form" method="GET">
+      <form class="form" method="GET">
         <div class="form-control">
           <label for="username">Username</label>
-          <input type="text" placeholder="username" id="username" />
+          <input type="text" placeholder="username" class="username" />
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small>Error message</small>
         </div>
         <div class="form-control">
           <label for="username">Email</label>
-          <input type="email" placeholder="email @" id="email" />
+          <input type="email" placeholder="email @" class="email" />
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small>Error message</small>
         </div>
         <div class="form-control">
           <label for="username">Password</label>
-          <input type="password" placeholder="Password" id="password"/>
+          <input type="password" placeholder="Password" class="password"/>
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small>Error message</small>
@@ -148,11 +148,11 @@
       </p>
     </footer>
     <script>
-      const form = document.getElementById('form');
-      const username = document.getElementById('username');
-      const email = document.getElementById('email');
-      const password = document.getElementById('password');
-      const password2 = document.getElementById('password2');
+      const form = document.getElementsByClassName('form');
+      const username = document.getElementsByClassName('username');
+      const email = document.getElementsByClassName('email');
+      const password = document.getElementsByClassName('password');
+      const password2 = document.getElementsByClassName('password2');
 
       form.addEventListener('submit', e => {
 	      e.preventDefault();

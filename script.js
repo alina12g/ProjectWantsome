@@ -6,7 +6,7 @@ for(let but of button){
     but.addEventListener('click', (e)=>{
         let add = Number(cart.getAttribute('data-count') || 0);
         cart.setAttribute('data-count', add +1);
-        cart.classList.add('zero')
+        cart.classList.add('zero');
 
         // image --animation to cart ---//
         let image = e.target.parentNode.querySelector('img');
@@ -18,7 +18,7 @@ for(let but of button){
             span.classList.remove("active");
             span.removeChild(s_image);
         }, 500); 
-        
+
         
 
         // copy and paste //
