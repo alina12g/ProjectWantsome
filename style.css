@@ -61,7 +61,7 @@ input[type="text"] {
   padding: 6px;
   margin-top: 8px;
   margin-right: 16px;
-  border: 0.1px solid var(--skye-blue);
+  border: 0.1px solid var(--orange);
   font-size: 17px;
 }
 .left-nav {
