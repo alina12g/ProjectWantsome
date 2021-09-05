@@ -427,6 +427,8 @@ input[type="submit"]:active {
   text-align: justify;
   background: url(https://i.pinimg.com/474x/9e/95/65/9e95656d44318f12fa7bcb5f79099253.jpg);
 }
+/*restyle for JS*/
+
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
